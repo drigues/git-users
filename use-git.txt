@@ -1,3 +1,5 @@
+Using multiple account with git 
+
 $ git init
 
 $ git config
@@ -16,3 +18,6 @@ $ git config --global --add user.email
 
 git config file on the root
 /.git/config
+
+set a new url origin
+git remote set-url --add origin [URL]

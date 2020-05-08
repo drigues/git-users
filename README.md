@@ -33,4 +33,3 @@ first you need to add the new url repository to delete the previous one
 
 ### to DELETE url origin repository
     $ git remote set-url --delete origin [URL]
-    

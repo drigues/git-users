@@ -40,12 +40,13 @@ first you need to add the new url repository to delete the previous one
     $ git remote set-url --delete origin [URL]
 
 
-## remote: Permission to [url] denied to "user"
+### remote: Permission to [url] denied to "user"
+fatal: unable to access - The requested URL returned error: 403
 
-### fatal: unable to access - The requested URL returned error: 403
+    control panel > user accounts > credential manager > Windows credentials > Generic credentials
 
-### control panel > user accounts > credential manager > Windows credentials > Generic credentials
 DELETE ALL github keys
+
 
 
 

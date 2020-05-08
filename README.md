@@ -28,6 +28,9 @@ on config list you all variables from repository and user
 ### git config file on the root
 /.git/config
 
+### to SET an url origin repository
+    $ git remote set-url origin [url]
+
 ### to ADD a new url origin repository
 first you need to add the new url repository to delete the previous one
 
@@ -35,3 +38,14 @@ first you need to add the new url repository to delete the previous one
 
 ### to DELETE url origin repository
     $ git remote set-url --delete origin [URL]
+
+
+## remote: Permission to [url] denied to "user"
+
+### fatal: unable to access - The requested URL returned error: 403
+
+### control panel > user accounts > credential manager > Windows credentials > Generic credentials
+DELETE ALL github keys
+
+
+
